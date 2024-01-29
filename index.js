@@ -15,7 +15,26 @@ for (const file of commandFiles) {
     log.init(`✅ | Comando carregado: ${command.name}`);
 	client.commands.set(command.name, command);
 };
-    
+
+const http = require('http');
+
+const server = http.createServer((req, res) => {
+  res.setHeader('Content-Type', 'text/html');
+  res.end(`
+    <html>
+      <head>
+        <title>Your Web View</title>
+      </head>
+      <body>
+        <h1>Meu Site</h1>
+      </body>
+    </html>`);
+});
+
+server.listen(3000, () => {
+  console.log('Server Online!!');
+});
+
 client.login(config.token);
 
 client.on('ready', () => {
