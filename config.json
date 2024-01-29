@@ -1,0 +1,14 @@
+{
+    "token": "MTIwMDU4NjM0NDc5NjI3ODg0Ng.GuGrnF.m1iWnrbGImE3seoMzvrbDQLOefXRGG6_UHMVOM",
+    "prefix": "!",
+    "cooldown": "5",
+    "subtitulo": "SMITH STORE",
+    "color": "#000000",
+    "banner": "https://cdn.discordapp.com/attachments/1127409415100825701/1145439635275776180/standard.gif",
+    "thumbnail": "https://media.discordapp.net/attachments/1127409415100825701/1145439685213159464/SMITH.jpg?width=299&height=299",
+    
+    "command": {
+    "notfound_message": true,
+    "error_message": true
+    }
+}
